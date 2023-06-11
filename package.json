@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "mochawesome-report-generator": "^6.2.0"
+  }
+}
