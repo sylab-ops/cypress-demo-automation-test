@@ -1,4 +1,3 @@
-require('cypress-downloadfile/lib/downloadFileCommand')
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
@@ -26,3 +25,4 @@ require('cypress-downloadfile/lib/downloadFileCommand')
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
 import 'cypress-file-upload';
+require('cypress-downloadfile/lib/downloadFileCommand')
