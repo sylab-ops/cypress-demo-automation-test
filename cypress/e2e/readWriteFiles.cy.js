@@ -20,8 +20,9 @@ it('Read file using readFile()', function(){
     })
 })
 
-it('Write file writeFile()', function(){
+it('Write file using writeFile()', function(){
     cy.writeFile('example.json','Hello, I am Abraham!') 
-    cy.writeFile('./cypress/fixtures/example.txt','Hello, I am Abraham!') 
+    cy.writeFile('./cypress/fixtures/example.txt','Hello, I am Abraham!\n') 
+    cy.writeFile('./cypress/fixtures/example.txt','And I am learning cypress',{flag: 'a+'}) 
 })
 

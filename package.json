@@ -1,5 +1,9 @@
 {
   "dependencies": {
+    "cypress-downloadfile": "^1.2.3",
     "mochawesome-report-generator": "^6.2.0"
+  },
+  "devDependencies": {
+    "cypress-file-upload": "^5.0.8"
   }
 }
